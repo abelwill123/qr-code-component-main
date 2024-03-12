@@ -1,4 +1,6 @@
 .attribution {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 2.5rem;
   font-size: 11px;
   text-align: center;
 }
@@ -21,37 +23,39 @@ h1 {
 }
 
 .mentor {
+  margin-top: 1.5rem;
   font-size: 15px;
   font-weight: light;
   color: hsl(211, 15%, 70%);
 }
 
 .Qr-image {
-  border-radius: 5%;
   width: 100%;
+  border-radius: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 body {
-  width: 100%;
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   border-radius: 5%;
   background-color: white;
-  align-items: center;
-  margin: 9rem;
   padding: 1rem;
+  width: 90%;
+  max-width: 300px;
 }
 
 .Qr-image:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
 
-  /* When the animation is finished, start again */
   animation-iteration-count: infinite;
 }
 
